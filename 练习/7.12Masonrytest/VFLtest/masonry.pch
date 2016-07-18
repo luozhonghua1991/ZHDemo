@@ -1,0 +1,24 @@
+//
+//  masonry.pch
+//  Masonrytest
+//
+//  Created by Luo on 16/7/12.
+//  Copyright © 2016年 Luo. All rights reserved.
+//
+
+#ifndef masonry_pch
+#define masonry_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+////添加上这个宏定义就不用加mas 前缀了
+////define this constant if you want to use Masonry without the 'mas_' prefix
+//#define MAS_SHORTHAND
+//
+////define this constant if you want to enable auto-boxing for default syntax
+//#define MAS_SHORTHAND_GLOBALS
+//#import "Masonry.h"
+
+#endif /* masonry_pch */
+
